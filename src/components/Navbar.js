@@ -67,7 +67,7 @@ const  Navbar = () => {
             
           </div>
   
-          <div className="md:hidden" 
+          <div className="md:hidden"  onClick={handleClick}
           >
             <img src={toggle ? close : hamburgerMenu} />
           </div>

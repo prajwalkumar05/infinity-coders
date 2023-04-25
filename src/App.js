@@ -11,7 +11,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error />} />
         <Route path="/scanner" element={<QRreader />} />
-
       </Routes>
     </>
   );
