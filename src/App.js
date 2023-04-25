@@ -1,28 +1,18 @@
-
-import './App.css';
-import About from './Pages/About';
-import { Footer } from './Pages/Footer';
-import Header from './Pages/Header';
-import Map from './Pages/Map';
-import Navbar from './Pages/Navbar';
-import Process from './Pages/Process';
-import Products from './Pages/Products';
-
-
-import Home from './components/Home';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Home from "./Pages/Home";
+import Error from "./Pages/Error";
+import QRreader from "./components/QRreader";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <About />
-      <Process />
-      <Products />
-      <Map />
-      <Footer />
-      
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Error />} />
+        <Route path="/scanner" element={<QRreader />} />
+
+      </Routes>
     </>
   );
 }
