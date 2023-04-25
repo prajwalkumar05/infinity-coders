@@ -19,7 +19,7 @@ const Products = () => {
       
         {
           id: 2,
-          name: "Basic Tee",
+          name: "Bag",
           href: "#",
           imageSrc:"https://rukminim1.flixcart.com/image/612/612/xif0q/backpack/z/b/4/2-saturn-15-n08904-06-backpack-national-geographic-0-1-20-original-imaggd4uf86ydkwb.jpeg?q=70",
           imageAlt: "Front of men's Basic Tee in black.",
@@ -29,7 +29,7 @@ const Products = () => {
       
         {
           id: 3,
-          name: "Basic Tee",
+          name: "Shirt",
           href: "#",
           imageSrc:
             "https://rukminim1.flixcart.com/image/832/832/kwzap3k0/shirt/u/c/6/xxl-lstr-black-p-v-creations-original-imag9jggw5pxzjfg.jpeg?q=70",
@@ -40,7 +40,7 @@ const Products = () => {
       
         {
           id:43,
-          name: "Basic Tee",
+          name: "Shirt",
           href: "#",
           imageSrc:
             "https://rukminim1.flixcart.com/image/832/832/jvmpci80/shirt/p/d/d/m-sys-b4003-funday-fashion-original-imafgfwjrtjhg852.jpeg?q=70",
