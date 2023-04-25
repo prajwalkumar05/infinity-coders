@@ -5,6 +5,8 @@ import Error from "./Pages/Error";
 import QRreader from "./components/QRreader";
 import LoginModel from "./components/LoginModel";
 import Signin from "./components/Signin";
+import Main from "./E-commerce/Main";
+import Cart from "./E-commerce/components/Cart";
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
         <Route path="/scanner" element={<QRreader />} />
         <Route path="/login" element={<LoginModel />} />
         <Route path="/signin" element={<Signin />} />
-        
+        <Route path="/shop" element={<Main />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
   );
