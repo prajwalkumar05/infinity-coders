@@ -5,9 +5,9 @@ import hamburgerMenu from "../assets/hamburgerMenu.svg";
 import close from "../assets/close.svg";
 import { Link } from "react-router-dom";
 import { collection, doc, onSnapshot, updateDoc } from "firebase/firestore";
-import LoginModel from "./LoginModel";
 import { db } from "../Firebase/config";
-import Signin from "./Signin";
+import eco from '../assets/eco.jpeg'
+
 
 const Navbar =  ()  => {
 
@@ -72,6 +72,15 @@ const Navbar =  ()  => {
     })
   }
 
+  const handleLogOut = async () =>{
+
+    updateDoc(colRefSign,{
+      signValue:false
+    } ).then(response => {
+    })
+
+  }
+
   return (
     <div className="w-full h-[60px] bg-white border-b">
 
@@ -80,12 +89,13 @@ const Navbar =  ()  => {
       
 
       <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-around items-center md:px-0 px-4">
-        <img src={logo} className="h-[25px]" />
+        {/* <h2 className="text-[#20B486] font-bold text-3xl">Eco Pet</h2> */}
+        <img className="h-[40px]" src={eco} alt="eco" />
 
         <div className="hidden md:flex items-center ">
           <ul className="flex gap-4 ">
           <Link
-              to="about"
+              to="/"
               className="flex justify-between items-center  bg-transparent  px-2 gap-2"
             >
               Home
@@ -97,6 +107,8 @@ const Navbar =  ()  => {
             >
              Shop
             </Link>
+
+            
           </ul>
         </div>
 
@@ -121,6 +133,12 @@ const Navbar =  ()  => {
             Sign Up For Free
           </Link>}
 
+          {signUp ? <button
+              onClick={handleLogOut}
+              className="flex justify-between items-center  bg-transparent  px-2 gap-2"
+            >
+             Logout
+            </button> : null}
           
         </div>
 

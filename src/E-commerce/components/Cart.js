@@ -70,8 +70,8 @@ const Cart = () => {
             </p>
 
             <ListGroup>
-              {cart.map((prod) => (
-                <div className="flex gap-6 m-6  md:flex-row justify-start items-start md:items-center  border border-gray-200 w-full">
+              {cart.map((prod,i) => (
+                <div key={i} className="flex gap-6 m-6  md:flex-row justify-start items-start md:items-center  border border-gray-200 w-full">
                   <div className="w-40 md:w-32">
                     <img
                       className="hidden md:block"

@@ -32,7 +32,7 @@ const Model = ({points,model,setModel}) => {
                                     <path d="M9 12l2 2l4 -4" />
                                 </svg>
                             </div>
-                            <h1 className="text-center text-gray-800 dark:text-gray-100 font-lg font-bold tracking-normal leading-tight mb-4">Your Order Completed</h1>
+                            <h1 className="text-center text-gray-800 dark:text-gray-100 font-lg font-bold tracking-normal leading-tight mb-4">Your Order Confirmed</h1>
                             <p className="mb-5 text-sm text-gray-600 dark:text-gray-400 text-center font-normal">Thank you for your payment. your total points {points} is Redeemed </p>
                             <div className="flex items-center justify-center w-full">
                                 <button onClick={handler} className="focus:outline-none transition duration-150 ease-in-out hover:bg-indigo-600 bg-indigo-700 rounded text-white px-4 sm:px-8 py-2 text-xs sm:text-sm">okk</button>
