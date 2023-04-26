@@ -1,9 +1,9 @@
 
------>>Title
+##Title
 Reverse Vending Machine
 
 
------>Description of the hack
+##Description of the hack
 This is the project based on reverse vending meachine,that 
 the web application has been done to scan the QR scanner
 for recycling the plastic and reduce man effort by shredding 
@@ -11,7 +11,7 @@ the particles,so the customer get the redeem points and shops
 his desired item made out of recycled plastic.
 
 
------>>Tech Stack
+##Tech Stack
 web based Application
 front-end:HTML,CSS,JavaScript,Reactjs,TailwindCss(css-Frame Work)
 backend:Firebase
@@ -19,7 +19,7 @@ backend:Firebase
 
 
 
------>>Installation steps
+##Installation steps
 1.First we need Node js to install javascript library(react)
 2.installation of react package
     npm create-react-app project-name (create new react app)
@@ -29,13 +29,13 @@ backend:Firebase
     npm install package_name
 
 
------>>depenendencies 
+##depenendencies 
 1.react-router-dom for routing
 2.react-qr-reader for QR scanning
 3.Firebase for backed connection
 4.react-icons for icons
 
------>>framework
+##framework
 1.reactjs it is javascript library
 2.tailwind-css it is css library  
 
