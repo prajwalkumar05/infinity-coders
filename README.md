@@ -1,6 +1,6 @@
 
 ## Title
-Reverse Vending Machine.\
+Reverse Vending Machine
 
 
 ## Description of the hack
@@ -14,7 +14,7 @@ his desired item made out of recycled plastic.
 ## Tech Stack
 web based Application.\
 front-end:HTML,CSS,JavaScript,Reactjs,TailwindCss(css-Frame Work).\
-backend:Firebase.\
+backend:Firebase
 
 
 
@@ -26,18 +26,18 @@ backend:Firebase.\
 3.to exicute or run the react code using.\
     npm start.\
 4.install packages in react.\
-    npm install package_name.\
+    npm install package_name
 
 
 ## depenendencies 
 1.react-router-dom for routing.\
 2.react-qr-reader for QR scanning.\
 3.Firebase for backed connection.\
-4.react-icons for icons.\
+4.react-icons for icons
 
 ## framework
 1.reactjs it is javascript library.\
-2.tailwind-css it is css library.\  
+2.tailwind-css it is css library
 
 
 

@@ -6,6 +6,7 @@ import Process from './Process'
 import Products from './Products'
 import Map from './Map'
 import { Footer } from './Footer'
+import Table from './Table'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <Process />
       <Products />
+      <Table />
       <Map />
       <Footer />
     </>

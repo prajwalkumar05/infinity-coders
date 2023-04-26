@@ -7,6 +7,7 @@ import LoginModel from "./components/LoginModel";
 import Signin from "./components/Signin";
 import Main from "./E-commerce/Main";
 import Cart from "./E-commerce/components/Cart";
+import Table from "./Pages/Table";
 
 function App() {
   return (
